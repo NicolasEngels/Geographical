@@ -1,3 +1,76 @@
 body{
     background-color: #303F4B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#inputs{
+    margin: 100px auto;
+    width: max-content;
+}
+
+#submit, #address, #weather button{
+    border: 0;
+    height: 25px;
+    font-size: large;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    color: #303F4B;
+}
+
+#address{
+    width: 300px;
+    margin-right: 0;
+    padding-left: 5px;
+}
+
+#submit, #weather button{
+    cursor: pointer;
+    width: 100px;
+}
+
+#submit:hover, #weather button:hover{
+    background-color: #303F4B;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+#address:focus{
+    outline: none;
+}
+
+#map{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+}
+
+#map a{
+    color: whitesmoke;
+    font-size: x-small;
+}
+
+.mapboxgl-canvas{
+    border-radius: 3px;
+}
+
+#weather{
+    margin: 75px auto;
+    width: max-content;
+}
+
+#weather button{
+    width: 150px;
+    margin: 15px;
 }
