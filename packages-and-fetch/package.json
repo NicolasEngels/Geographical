@@ -1,0 +1,16 @@
+{
+  "name": "packages-and-fetch",
+  "version": "1.0.0",
+  "description": "showcase of npm and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html"
+  },
+  "author": "Nicolas Engels",
+  "license": "ISC",
+  "dependencies": {
+    "mapbox-gl": "^2.10.0",
+    "parcel": "^2.8.0"
+  }
+}
